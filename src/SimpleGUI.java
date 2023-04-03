@@ -79,7 +79,7 @@ public class SimpleGUI extends JFrame{
 
         // create welcome label
         JLabel welcomeLabel = new JLabel("Welcome to my GUI!");
-        welcomeLabel.setFont(new Font("Helvetica", Font.BOLD, 20));
+        welcomeLabel.setFont(new Font("Ariel", Font.ITALIC, 30));
 
         // create slider and adjust settings
         JSlider slider = new JSlider(0, 40, 20);
@@ -138,7 +138,7 @@ public class SimpleGUI extends JFrame{
                 newFrame.setSize(300, 200);
                 newFrame.setLocation(350, 70);
                 JPanel secPanel = new JPanel();
-                JLabel newLabel = new JLabel("Hello!!");
+                JLabel newLabel = new JLabel("Hello!! This is my new frame!");
                 secPanel.add(newLabel);
                 newFrame.add(secPanel);
                 newFrame.setVisible(true);
